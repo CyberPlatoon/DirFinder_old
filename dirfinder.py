@@ -56,7 +56,7 @@ for i in file.readlines():
     if response.status_code==200:
         #print(url+" ===> 200")
         stu200 = url+" ===> 200"
-        print(stu200)
+        print(colored(" [+] ", 'green') + stu200)
         Output.write(stu200+"\n")
 
 
@@ -64,7 +64,7 @@ for i in file.readlines():
     if response.status_code==403:
         print(url+" ===> 403")
         stu403 = url+" ===> 403"
-        print(stu403)
+        print(colored(" [+] ", 'red') + stu403)
         Output.write(stu403+"\n")
 
 
@@ -89,7 +89,7 @@ for i in file_Ex.readlines():
     if response.status_code==200:
         #print(url+" ===> 200")
         satatus200 = url+" ===> 200"
-        print(satatus200)
+        print(colored(" [+] ", 'green') + satatus200)
         Output.write(satatus200+"\n")
 
 
@@ -97,7 +97,7 @@ for i in file_Ex.readlines():
     if response.status_code==403:
         print(url+" ===> 403")
         satatus403 = url+" ===> 403"
-        print(satatus403)
+        print(colored(" [+] ", 'red') + satatus403)
         Output.write(satatus403+"\n")
 
 
