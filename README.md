@@ -1,4 +1,10 @@
 
+
+
+![App Screenshot](https://github.com/CyberPlatoon/DirFinder/blob/main/DirFinder.png?raw=true)
+
+<br>
+
 # DirFinder
 
 
