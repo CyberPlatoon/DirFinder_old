@@ -34,6 +34,7 @@ Install DirFinder with Python
 ```bash
   git clone https://github.com/CyberPlatoon/DirFinder.git
   cd DirFinder
+  sudo pip3 install -r requirements.txt
   python3 dirfinder.py
 ```
 
