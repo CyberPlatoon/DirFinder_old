@@ -62,7 +62,7 @@ for i in file.readlines():
 
     
     if response.status_code==403:
-        print(url+" ===> 403")
+        #print(url+" ===> 403")
         stu403 = url+" ===> 403"
         print(colored(" [+] ", 'red') + stu403)
         Output.write(stu403+"\n")
@@ -95,7 +95,7 @@ for i in file_Ex.readlines():
 
     
     if response.status_code==403:
-        print(url+" ===> 403")
+        #print(url+" ===> 403")
         satatus403 = url+" ===> 403"
         print(colored(" [+] ", 'red') + satatus403)
         Output.write(satatus403+"\n")
