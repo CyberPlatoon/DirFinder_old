@@ -1,5 +1,6 @@
 import requests
 from termcolor import colored
+import subprocess
 
 
 
@@ -17,6 +18,7 @@ print(colored("""
 =======================================================                                                     
 
                                          -By Pradeep Kumar
+                                         https://github.com/CyberPlatoon/
 """, 'green'))      
 
 
@@ -40,7 +42,7 @@ Output_File = input(colored("  [+]   Enter Output File Name : ", 'yellow', attrs
 print("\n")
 
 
-Output = open("Output/"+Output_File, "w")
+#Output = open("Output/"+Output_File, "w")
 file = open(wordlist+".txt", "r")
 file_Ex = open("extensions.txt", "r")
 
@@ -51,13 +53,18 @@ for i in file.readlines():
     #print("{} and {}".format(url,response.status_code))
     status =response.status_code
     size = response.headers.get('content-length', 0)
+    #SubOutput = str(subprocess.run("echo "+url+" > Output/"+Output))
 
     
     if response.status_code==200:
         #print(url+" ===> 200")
         stu200 = url+" ===> 200"
         print(colored(" [+] ", 'green') + stu200)
-        Output.write(stu200+"\n")
+        #print(SubOutput)
+        Output = open("Output/"+Output_File, "w")
+        Output.write(url)
+        Output.close()
+        
 
 
     
@@ -65,7 +72,9 @@ for i in file.readlines():
         #print(url+" ===> 403")
         stu403 = url+" ===> 403"
         print(colored(" [+] ", 'red') + stu403)
-        Output.write(stu403+"\n")
+        Output = open("Output/"+Output_File, "w")
+        Output.write(url)
+        Output.close()
 
 
     
@@ -90,7 +99,9 @@ for i in file_Ex.readlines():
         #print(url+" ===> 200")
         satatus200 = url+" ===> 200"
         print(colored(" [+] ", 'green') + satatus200)
-        Output.write(satatus200+"\n")
+        Output = open("Output/"+Output_File, "w")
+        Output.write(url)
+        Output.close()
 
 
     
@@ -98,8 +109,9 @@ for i in file_Ex.readlines():
         #print(url+" ===> 403")
         satatus403 = url+" ===> 403"
         print(colored(" [+] ", 'red') + satatus403)
-        Output.write(satatus403+"\n")
-
+        Output = open("Output/"+Output_File, "w")
+        Output.write(url)
+        Output.close()
 
 
     
@@ -110,7 +122,7 @@ for i in file_Ex.readlines():
 
 
 
-Output.close()
+
 file.close()
 file_Ex.close()
 
