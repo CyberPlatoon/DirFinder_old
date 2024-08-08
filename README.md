@@ -45,10 +45,10 @@ Install DirFinder with Python
 <a href="https://github.com/CyberPlatoon" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
 </a>
-<a href="https://twitter.com/iamrishavanand" target="_blank">
+<a href="https://twitter.com/cyberplatoon" target="_blank">
 <img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
 </a>
-<a href="https://www.youtube.com/user/https://www.youtube.com/channel/UC7hLpbMVE9xSP8slvkbF2tA" target="_blank">
+<a href="[https://www.youtube.com/user/https://www.youtube.com/channel/UC7hLpbMVE9xSP8slvkbF2tA](https://www.youtube.com/@cyberplatoon)" target="_blank">
 <img src=https://img.shields.io/badge/youtube-%23EE4831.svg?&style=for-the-badge&logo=youtube&logoColor=white alt=youtube style="margin-bottom: 5px;" />
 </a>
 <a href="https://instagram.com/CyberPlatoon" target="_blank">
