@@ -1,7 +1,7 @@
 
 
 
-![App Screenshot](https://github.com/CyberPlatoon/DirFinder/blob/main/DirFinder.png?raw=true)
+![App Screenshot](https://github.com/CyberPlatoon/DirFinder_old/blob/main/DirFinder.png?raw=true)
 
 <br>
 
